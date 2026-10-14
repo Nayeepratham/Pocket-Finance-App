@@ -13,7 +13,6 @@ from the `docs/` folder at **https://nayeepratham.github.io/**.
 docs/
 ├─ index.html              apps home page (one block per app)
 ├─ coinlet/                Coinlet's home page and privacy policy
-├─ pocket-finance/         old address, kept so links built into Coinlet 1.0 keep working
 └─ _new-app-template/      starting point for the next app (not published: folders
                            starting with "_" are skipped by GitHub Pages)
 ```
@@ -27,10 +26,3 @@ docs/
 4. Add a block for the app in `docs/index.html`.
 5. Commit and push. The pages go live in a minute or two at
    `https://nayeepratham.github.io/<app-name>/privacy-policy.html`.
-
-## Don't remove
-
-`docs/pocket-finance/` serves the privacy-policy address compiled into Coinlet 1.0
-(`/pocket-finance/privacy-policy.html`). Keep it, and keep it in sync with
-`docs/coinlet/privacy-policy.html`, until every Coinlet user has a version that links
-to `/coinlet/privacy-policy.html`.
